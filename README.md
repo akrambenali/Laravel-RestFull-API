@@ -60,7 +60,8 @@ We would like to extend our thanks to the following sponsors for funding Laravel
 - [Hyper Host](https://hyper.host)
 - [Appoly](https://www.appoly.co.uk)
 - [OP.GG](https://op.gg)
-
+## configuration 
+Run commande  php artisan serve
 ## Contributing
 
 Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
