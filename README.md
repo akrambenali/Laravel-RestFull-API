@@ -60,8 +60,34 @@ We would like to extend our thanks to the following sponsors for funding Laravel
 - [Hyper Host](https://hyper.host)
 - [Appoly](https://www.appoly.co.uk)
 - [OP.GG](https://op.gg)
-## configuration 
-Run commande  php artisan serve
+## Configuration 
+Create DB name : `black_pearl` 
+Run commande  `php artisan serve` 
+Http Headers Config :
+'headers' => [
+
+    'Accept' => 'application/json',
+
+    'Authorization' => 'Bearer '.$accessToken,
+
+]
+
+## Api Calls 
+
+1) Login: Verb:POST, URL:http://localhost:8000/oauth/token
+
+2) Register: Verb:POST, URL:http://localhost:8000/api/register
+
+3) List: Verb:GET, URL:http://localhost:8000/api/products
+
+4) Create: Verb:POST, URL:http://localhost:8000/api/products
+
+5) Show: Verb:GET, URL:http://localhost:8000/api/products/{id}
+
+6) Update: Verb:PUT, URL:http://localhost:8000/api/products/{id}
+
+7) Delete: Verb:DELETE, URL:http://localhost:8000/api/products/{id}
+
 ## Contributing
 
 Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
